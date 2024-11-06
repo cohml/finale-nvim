@@ -27,7 +27,7 @@ function M.get_highlights(theme)
         -- DiffDelete	Diff mode: Deleted line. |diff.txt|
         DiffDelete = { bg = theme.git.delete, fg = theme.ui.bg_weak },
         -- DiffText	Diff mode: Changed text within a changed line. |diff.txt|
-        DiffText = { bg = theme.git.delete },
+        DiffText = { bg = theme.ui.secondary_accent_weak, fg = theme.ui.bg_weak },
         -- EndOfBuffer	Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
         EndOfBuffer = { fg = theme.ui.grey_strong },
         -- TermCursor	Cursor in a focused terminal.

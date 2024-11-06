@@ -54,7 +54,7 @@ function M.get_theme(colours)
         },
 
         git = {
-            add = colours.pastel.lime,
+            add = colours.pastel.green,
             change = colours.pastel.orange,
             delete = colours.pastel.red,
         },
