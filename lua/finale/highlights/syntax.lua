@@ -158,7 +158,7 @@ function M.get_highlights(theme)
 
         ["@constant"] = { fg = theme.syntax.constant },
         ["@constant.builtin"] = { link = "@constant", bold = true },
-        -- ["@constant.macro"] = {},
+        ["@constant.macro"] = { theme.syntax.preproc },
 
         ["@module"] = { fg = theme.syntax.module },
         ["@module.builtin"] = { fg = theme.syntax.module, bold = true },
