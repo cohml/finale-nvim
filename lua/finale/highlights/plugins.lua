@@ -168,8 +168,8 @@ function M.get_highlights(theme)
         TodoSignWARN = { fg = theme.diag.warn.fg, bg = theme.ui.bg_neutral },
 
         -- Treesitter-context
-        -- TreesitterContext = {},
-        TreesitterContextLineNumber = { fg = theme.ui.accent_weak },
+        TreesitterContext = { bg = theme.ui.bg_weak },
+        TreesitterContextLineNumber = { fg = theme.ui.accent_weak, bg = theme.ui.bg_weak },
         -- TreesitterContextBottom = {},
 
         -- Undotree
