@@ -134,14 +134,14 @@ function M.get_highlights(theme)
         -- Telescope
         TelescopeNormal = { fg = theme.ui.fg, bg = theme.ui.bg_neutral },
         TelescopeBorder = { link = "Normal" },
-        TelescopeSelection = { link = "IncSearch" },
-        TelescopeSelectionCaret = { link = "IncSearch" },
+        TelescopeSelection = { bg = theme.ui.grey_weak },
+        TelescopeSelectionCaret = { bg = theme.ui.grey_weak },
         TelescopeResultsClass = { link = "Type" },
         TelescopeResultsStruct = { link = "Type" },
         TelescopeResultsField = { link = "@field" },
         TelescopeResultsMethod = { link = "@method" },
         TelescopeResultsVariable = { link = "@variable" },
-        TelescopeMatching = { fg = theme.ui.secondary_accent_strong, bold = true },
+        TelescopeMatching = { fg = theme.ui.special_accent_strong, bold = true },
 
         -- Todo-comments
         Todo = { link = "TodoBgTODO" },
