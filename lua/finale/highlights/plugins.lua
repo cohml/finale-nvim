@@ -69,6 +69,9 @@ function M.get_highlights(theme)
         LazySpecial = { fg = theme.ui.secondary_accent_strong },
         LazyButtonActive = { fg = theme.ui.fg, bg = theme.ui.grey_weak },
 
+        -- Local-highlight.nvim
+        LocalHighlight = { bg = theme.ui.highlight },
+
         -- Lsp-signature
         LspSignatureActiveParameter = { bg = theme.diag.warn.fg, fg = theme.ui.bg_neutral, bold = true },
 
@@ -157,9 +160,6 @@ function M.get_highlights(theme)
         CmpItemKindCodeium = { fg = theme.suggestions },
         CmpItemKindTabNine = { fg = theme.suggestions },
 
-        -- Local-highlight.nvim
-        LocalHighlight = { bg = theme.ui.highlight },
-
         -- Nvim-spectre
         SpectreBody = { link = "WinSeparator" },
         SpectreBorder = { link = "FloatBorder" },
@@ -171,6 +171,17 @@ function M.get_highlights(theme)
 
         -- Nvim-surround
         -- NvimSurroundHighlight = { link = "Visual" },
+
+        -- Pounce
+        PounceUnmatched = { link = "None" },
+        PounceAcceptBest = { link = "Substitute" },
+        PounceCursorAcceptBest = { link = "Substitute" },
+        PounceAccept = { link = "CurSearch" },
+        PounceCursorAccept = { link = "CurSearch" },
+        PounceCursor = { link = "Cursor" },
+        PounceMatch = { link = "Visual" },
+        PounceGap = { bg = theme.ui.accent_weak, fg = theme.ui.bg_neutral },
+        PounceCursorGap = { bg = theme.ui.grey_strong, fg = theme.ui.bg_neutral },
 
         -- Symbols-outline
         FocusedSymbol = { fg = theme.diag.info.fg, bg = theme.diag.info.bg },

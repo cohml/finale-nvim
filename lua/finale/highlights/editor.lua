@@ -21,13 +21,13 @@ function M.get_highlights(theme)
         -- Directory	Directory names (and other special names in listings).
         Directory = { fg = theme.ui.accent_weak },
         -- DiffAdd		Diff mode: Added line. |diff.txt|
-        DiffAdd = { bg = theme.git.add, fg = theme.ui.bg_weak },
+        DiffAdd = { bg = theme.git.add, fg = theme.ui.bg_neutral },
         -- DiffChange	Diff mode: Changed line. |diff.txt|
-        DiffChange = { bg = theme.git.change, fg = theme.ui.bg_weak },
+        DiffChange = { bg = theme.git.change, fg = theme.ui.bg_neutral },
         -- DiffDelete	Diff mode: Deleted line. |diff.txt|
-        DiffDelete = { bg = theme.git.delete, fg = theme.ui.bg_weak },
+        DiffDelete = { bg = theme.git.delete, fg = theme.ui.bg_neutral },
         -- DiffText	Diff mode: Changed text within a changed line. |diff.txt|
-        DiffText = { bg = theme.ui.secondary_accent_weak, fg = theme.ui.bg_weak },
+        DiffText = { bg = theme.ui.secondary_accent_weak, fg = theme.ui.bg_neutral },
         -- EndOfBuffer	Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
         EndOfBuffer = { fg = theme.ui.grey_strong },
         -- TermCursor	Cursor in a focused terminal.
@@ -116,7 +116,7 @@ function M.get_highlights(theme)
         -- Title		Titles for output from ":set all", ":autocmd" etc.
         Title = { fg = theme.ui.accent_strong, bold = true },
         -- Visual		Visual mode selection.
-        Visual = { bg = theme.ui.secondary_accent_weak, fg = theme.ui.bg_weak },
+        Visual = { bg = theme.ui.secondary_accent_weak, fg = theme.ui.bg_neutral },
         -- VisualNOS	Visual mode selection when vim is "Not Owning the Selection".
         VisualNOS = { link = "Visual" },
         -- WarningMsg	Warning messages.
@@ -126,9 +126,9 @@ function M.get_highlights(theme)
         -- WildMenu	Current match in 'wildmenu' completion.
         WildMenu = { link = "Pmenu" },
         -- WinBar		Window bar of current window.
-        Winbar = { fg = theme.ui.bg_weak, bg = "NONE" },
+        Winbar = { fg = theme.ui.bg_neutral, bg = "NONE" },
         -- WinBarNC	Window bar of not-current windows.
-        WinbarNC = { fg = theme.ui.bg_weak, bg = "NONE" },
+        WinbarNC = { fg = theme.ui.bg_neutral, bg = "NONE" },
 
         -- SignColumnSB = { link = "SignColumn" },
         -- NormalSB = { link = "Normal" },
