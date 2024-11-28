@@ -12,27 +12,27 @@ finale.normal = {
 
 finale.insert = {
     a = { bg = theme.syntax.h2, fg = theme.ui.bg_neutral, gui = "bold" },
-    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h2 },
+    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h1 },
 }
 
 finale.command = {
     a = { bg = theme.syntax.h4, fg = theme.ui.bg_neutral, gui = "bold" },
-    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h4 },
+    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h1 },
 }
 
 finale.visual = {
     a = { bg = theme.syntax.h6, fg = theme.ui.bg_neutral, gui = "bold" },
-    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h6 },
+    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h1 },
 }
 
 finale.replace = {
     a = { bg = theme.syntax.h5, fg = theme.ui.bg_neutral, gui = "bold" },
-    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h5 },
+    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h1 },
 }
 
 finale.terminal = {
     a = { bg = theme.syntax.h3, fg = theme.ui.bg_neutral, gui = "bold" },
-    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h3 },
+    b = { bg = theme.ui.bg_weak, fg = theme.syntax.h1 },
 }
 
 finale.inactive = {
