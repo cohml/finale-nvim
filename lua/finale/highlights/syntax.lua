@@ -94,7 +94,7 @@ function M.get_highlights(theme)
         LspReferenceText = { bg = theme.diag.info.bg },
         LspReferenceRead = { link = "LspReferenceText" },
         LspReferenceWrite = { bg = theme.diag.info.bg, underline = true },
-        -- LspInlayHint = { link = "NonText"},
+        LspInlayHint = { bg = theme.ui.bg_weak, fg = theme.ui.grey_strong },
 
         DiagnosticError = { fg = theme.diag.error.fg },
         DiagnosticWarn = { fg = theme.diag.warn.fg },
