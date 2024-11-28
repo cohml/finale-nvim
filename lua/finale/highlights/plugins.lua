@@ -23,6 +23,7 @@ function M.get_highlights(theme)
 
         -- Lazy
         LazySpecial = { fg = theme.ui.secondary_accent_strong },
+        LazyButtonActive = { fg = theme.ui.fg, bg = theme.ui.grey_weak },
 
         -- Lsp-signature
         LspSignatureActiveParameter = { bg = theme.diag.warn.fg, fg = theme.ui.bg_neutral, bold = true },

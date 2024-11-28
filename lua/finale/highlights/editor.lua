@@ -7,7 +7,7 @@ function M.get_highlights(theme)
         -- Conceal		Placeholder characters substituted for concealed text (see 'conceallevel').
         Conceal = { fg = theme.none },
         -- CurSearch	Used for highlighting a search pattern under the cursor (see 'hlsearch').
-        CurSearch = { fg = theme.ui.bg_neutral, bg = theme.ui.accent_strong, bold = true },
+        CurSearch = { fg = theme.ui.bg_neutral, bg = theme.ui.secondary_accent_strong, bold = true },
         -- Cursor		Character under the cursor.
         Cursor = { fg = theme.ui.bg_neutral, bg = theme.ui.accent_strong },
         -- lCursor		Character under the cursor when |language-mapping| is used (see 'guicursor').
@@ -46,7 +46,7 @@ function M.get_highlights(theme)
         -- IncSearch	'incsearch' highlighting; also used for the text replaced with ":s///c".
         IncSearch = { link = "CurSearch" },
         -- Substitute	|:substitute| replacement text highlighting.
-        Substitute = { fg = theme.ui.bg_neutral, bg = theme.ui.secondary_accent_strong, bold = true },
+        Substitute = { fg = theme.ui.bg_neutral, bg = theme.ui.special_accent_strong, bold = true },
         -- LineNr		Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
         LineNr = { fg = theme.ui.grey_strong, bg = theme.ui.bg_neutral },
         -- LineNrAbove	Line number for when the 'relativenumber' option is set, above the cursor line.
@@ -116,7 +116,7 @@ function M.get_highlights(theme)
         -- Title		Titles for output from ":set all", ":autocmd" etc.
         Title = { fg = theme.ui.accent_strong, bold = true },
         -- Visual		Visual mode selection.
-        Visual = { bg = theme.ui.accent_weak, fg = theme.ui.bg_weak },
+        Visual = { bg = theme.ui.secondary_accent_weak, fg = theme.ui.bg_weak },
         -- VisualNOS	Visual mode selection when vim is "Not Owning the Selection".
         VisualNOS = { link = "Visual" },
         -- WarningMsg	Warning messages.
