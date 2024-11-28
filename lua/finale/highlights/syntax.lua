@@ -115,19 +115,19 @@ function M.get_highlights(theme)
         DiagnosticVirtualTextHint = { fg = theme.diag.hint.fg, bg = theme.diag.hint.bg },
 
         DiagnosticUnderlineError = {
-            underdouble = true,
+            undercurl = true,
             sp = theme.diag.error.fg,
         },
         DiagnosticUnderlineWarn = {
-            underdouble = true,
+            undercurl = true,
             sp = theme.diag.warn.fg,
         },
         DiagnosticUnderlineInfo = {
-            underline = true,
+            undercurl = true,
             sp = theme.diag.info.fg,
         },
         DiagnosticUnderlineHint = {
-            underline = true,
+            undercurl = true,
             sp = theme.diag.hint.fg,
         },
 

@@ -96,13 +96,13 @@ function M.get_highlights(theme)
         -- SpecialKey	Unprintable characters: Text displayed differently from what it really is. But not 'listchars' whitespace. |hl-Whitespace|
         SpecialKey = { fg = theme.ui.grey_strong },
         -- SpellBad	Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
-        SpellBad = { undercurl = true, sp = theme.diag.error.fg },
+        SpellBad = { underdouble = true, sp = theme.diag.error.fg },
         -- SpellCap	Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
-        SpellCap = { undercurl = true, sp = theme.diag.hint.fg },
+        SpellCap = { underdouble = true, sp = theme.diag.hint.fg },
         -- SpellLocal	Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
-        SpellLocal = { undercurl = true, sp = theme.diag.hint.fg },
+        SpellLocal = { underdouble = true, sp = theme.diag.hint.fg },
         -- SpellRare	Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-        SpellRare = { undercurl = true, sp = theme.diag.hint.fg },
+        SpellRare = { underdouble = true, sp = theme.diag.hint.fg },
         -- StatusLine	Status line of current window.
         StatusLine = { fg = theme.ui.accent_weak, bg = theme.ui.bg_strong },
         -- StatusLineNC	Status lines of not-current windows. Note: If this is equal to "StatusLine", Vim will use "^^^" in the status line of the current window.
