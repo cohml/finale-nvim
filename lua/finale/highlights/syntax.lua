@@ -13,7 +13,7 @@ function M.get_highlights(theme)
         Identifier = { fg = theme.syntax.variable },            -- (preferred) any variable name
         Function = { fg = theme.syntax.func },                  -- function name (also: methods for classes)
 
-        Statement = { fg = theme.syntax.statement },            -- (preferred) any statement
+        Statement = { fg = theme.syntax.statement, italic = true },            -- (preferred) any statement
         -- Conditional   = { }, --  if, then, else, endif, switch, etc.
         -- Repeat        = { }, --   for, do, while, etc.
         Label = { fg = theme.syntax.label },                  --    case, default, etc.
@@ -199,7 +199,7 @@ function M.get_highlights(theme)
         ["@constructor"] = { fg = theme.syntax.method },           -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
         ["@operator"] = { fg = theme.syntax.operator },            -- For any operator: `+`, but also `->` and `*` in C.
 
-        ["@keyword"] = { fg = theme.syntax.keyword, bold = true }, -- For keywords that don't fall in previous categories.
+        ["@keyword"] = { fg = theme.syntax.keyword, bold = true, italic = true }, -- For keywords that don't fall in previous categories.
         -- ["@keyword.coroutine"] = {},
         -- ["@keyword.function"] = {},
         -- ["@keyword.operator"] = {},
