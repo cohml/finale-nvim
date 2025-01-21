@@ -17,7 +17,7 @@ function M.get_highlights(theme)
         -- Conditional   = { }, --  if, then, else, endif, switch, etc.
         -- Repeat        = { }, --   for, do, while, etc.
         Label = { fg = theme.syntax.label },                  --    case, default, etc.
-        Operator = { fg = theme.syntax.operator },            -- "sizeof", "+", "*", etc.
+        Operator = { fg = theme.syntax.operator, italic = true },  -- "sizeof", "+", "*", etc.
         Keyword = { fg = theme.syntax.keyword, bold = true }, --  any other keyword
         -- Exception     = { }, --  try, catch, throw
         PreProc = { fg = theme.syntax.keyword },              -- (preferred) generic Preprocessor
